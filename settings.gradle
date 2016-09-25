@@ -1,0 +1,4 @@
+include ':app'
+include ':domain'
+include ':retrofitAdapter'
+include ':servicefactory'
