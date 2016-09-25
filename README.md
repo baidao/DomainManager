@@ -57,7 +57,7 @@ private void initDomainConfig() {
 ```
 NoteApi noteApi = ServiceFactory.getInstance().create(HxServerDomainType.NOTE, NoteApi.class);
 ```
-###5.在测试环境和生产环境切换
+###5.在测试环境和生产环境之前动态切换
 ```
 DomainUtil.setIsDebug(debug);
 ServiceFactory.getInstance().clearCache();
